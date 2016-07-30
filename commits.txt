@@ -1,0 +1,11 @@
+commit b41e1bb2b472335e8ec5cce7ea5d372888a790e4
+Author: miguelcba45 <miguelcba45@gmail.com>
+Date:   Sat Jul 30 13:39:53 2016 -0400
+
+    Se le coloco la linea que divide la lectura
+
+commit df29fac385a35751460d24f647d122f27969a8be
+Author: miguelcba45 <miguelcba45@gmail.com>
+Date:   Sat Jul 30 13:20:53 2016 -0400
+
+    Inicio del Script
