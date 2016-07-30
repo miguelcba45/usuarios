@@ -11,6 +11,10 @@ echo "   _________________________________________________________________"
 echo "                                                                    "
 #lectura del Usuario
 read -p "Introduce el nuevo Usuario: " nombre
+echo "________________________________________________"
+echo "________________________________________________"
+
+read -p "Introduce dirección Web: " web
 
 #creacion de usuario
 mkdir /home/ftp/$nombre
