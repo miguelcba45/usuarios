@@ -14,7 +14,7 @@ read -p "Introduce el nuevo Usuario: " nombre
 
 echo "________________________________________________"
 echo "________________________________________________"
-echo " introduce una la direccion web de tu servidor"
+echo " Introduce la dirección web de tu servidor, Ejemplo: http://www.miservidor.com"
 echo "________________________________________________"
 echo "________________________________________________"
 
@@ -26,7 +26,7 @@ chmod 755 /home/ftp/$nombre
 mkdir /home/ftp/$nombre/pag
 chmod 755 /home/ftp/$nombre/pag
 touch /home/ftp/$nombre/index.html
-echo "<META HTTP-EQUIV='REFRESH' CONTENT='1;URL=http://150.186.39.9/$nombre/pag'>" >> /home/ftp/$nombre/index.html
+echo "<META HTTP-EQUIV='REFRESH' CONTENT='1;URL=$web/$nombre/pag'>" >> /home/ftp/$nombre/index.html
 echo "<html><body>" >> /home/ftp/$nombre/index.html
 echo "</body></html>" >> /home/ftp/$nombre/index.html
 useradd -g ftp -s /bin/fake -d /home/ftp/$nombre $nombre
